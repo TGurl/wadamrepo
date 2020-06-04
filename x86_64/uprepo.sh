@@ -1,4 +1,4 @@
 #!/bin/bash
 reponame="wadamrepo"
 
-repo-add ${reponame}.db.tar.xz *.pkg.tar.xz
+repo-add ${reponame}.db.tar.xz *.pkg.tar.zst
