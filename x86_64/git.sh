@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "Doing some git stuff..."
+git pull
+
 git add --all .
-echo 'Add a comment: ' 
-read comment
-git commit -m $comment
-git push
+read -p 'Add a comment: ' comment
+git commit -m "$comment"
+git push -u origin master
