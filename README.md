@@ -10,6 +10,7 @@ My small repository with Archlinux packages I use to create an archiso image for
 - ttf-iosevka
 - ttf-iosevka-term
 - ttf-unifont
+- gdlauncher-bin
 
 ## Disclaimer
 Do not use these packages on your system. They are here for my convenience and can be referenced forlearning only.
